@@ -749,7 +749,7 @@ img {
   top: 0;
   right: 0;
   opacity: 1;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms var(--cubic);
 
   padding: 63px 24px;
