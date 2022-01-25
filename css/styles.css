@@ -605,7 +605,8 @@ img {
 /* Страница Портфолио */
 
 .filter-button .btn {
-  transition: color 250ms var(--cubic), background-color 250ms var(--cubic);
+  transition: color 250ms var(--cubic), background-color 250ms var(--cubic),
+    box-shadow 250ms var(--cubic);
 
   font-family: Roboto;
   font-weight: 500;
