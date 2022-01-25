@@ -78,10 +78,10 @@ img {
   background-color: var(--back-color);
 }
 .backdrop.is-hidden {
-  visibility: hidden;
   opacity: 0;
   transition: 250ms var(--cubic);
   pointer-events: none;
+  visibility: hidden;
 }
 .modal {
   position: absolute;
@@ -101,6 +101,7 @@ img {
 
 .close-modal-button {
   position: absolute;
+  top: 0;
   right: 0;
   padding: 0;
   border: none;
@@ -108,6 +109,8 @@ img {
   color: inherit;
   background-color: transparent;
   cursor: pointer;
+  width: 33px;
+  height: 33px;
   margin-top: 8px;
   margin-right: 8px;
   transition: transform 250ms var(--cubic);
@@ -507,7 +510,6 @@ img {
 .footer-social-site {
   display: inline-flex;
   justify-content: center;
-
   padding-left: 0;
   margin: 0;
 
@@ -749,7 +751,7 @@ img {
   transition: transform 250ms var(--cubic);
 
   padding: 63px 24px;
-
+  font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
   letter-spacing: 0.03em;
